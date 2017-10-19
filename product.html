@@ -1,263 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/mdb.css">
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <link href="css/mystyle.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/myslider.js"></script>
-    <title>Document</title>
-   
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/mdb.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link href="css/mystyle.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/myslider.js"></script>
+  <title>My Website</title>
+
+
+
 </head>
+
 <body>
-  
-  
-    <div class ="container">
-        <div id= "head" class="row">
-            <div class="col-xs-12">
-                <nav class="navbar navbar-default navbar-inverse" role="navigation">
-                    <div class="container-fluid">
-                      <!-- Brand and toggle get grouped for better mobile display -->
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Security Arena</a>
-                      </div>
-                  
-                      <!-- Collect the nav links, forms, and other content for toggling -->
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                          <li class="active"><a href="#">Home</a></li>
-                          <li><a href="#">Partners</a></li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#">Avira</a></li>
-                              <li><a href="#">East Smart security</a></li>
-                              <li><a href="#">AVG</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Additional Products</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Submit a request</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <form class="navbar-form navbar-left" role="search">
-                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                          </div>
-                          <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
-                        <ul class="nav navbar-nav navbar-right">
-                          <li><p class="navbar-text">Already have an account?</p></li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
-                        <ul id="login-dp" class="dropdown-menu">
-                          <li>
-                             <div class="row">
-                                <div class="col-md-12">
-                                  Login via
-                                  <div class="social-buttons">
-                                    <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-                                    <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-                                  </div>
-                                                  or
-                                   <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-                                      <div class="form-group">
-                                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
-                                      </div>
-                                      <div class="form-group">
-                                         <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                         <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                                                               <div class="help-block text-right"><a href="">Forget the password ?</a></div>
-                                      </div>
-                                      <div class="form-group">
-                                         <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                      </div>
-                                      <div class="checkbox">
-                                         <label>
-                                         <input type="checkbox"> keep me logged-in
-                                         </label>
-                                      </div>
-                                   </form>
-                                </div>
-                                <div class="bottom text-center">
-                                  New here ? <a href="#"><b>Join Us</b></a>
-                                </div>
-                             </div>
-                          </li>
-                        </ul>
-                          </li>
-                        </ul>
-                      </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
-                  </nav>
-                
+
+
+  <div class="container">
+    <div id="head" class="row">
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Security Arena</a>
             </div>
-        </div>
 
-
-        <div id= "details" class="row">
-            <div id="left" class="col-xs-8">
-                    <div class="slideshow-container">
-                            <div class="mySlides">
-                              <div class="numbertext">1 / 4</div>
-                              <img src="images/img1.png" style="width:100%;height:425px;">
-                              <div class="text">Caption Text</div>
-                            </div>
-                          
-                            <div class="mySlides">
-                              <div class="numbertext">2 / 4</div>
-                              <img src="images/img2.png" style="width:100%;height:425px;">
-                              <div class="text">Caption Two</div>
-                            </div>
-                          
-                            <div class="mySlides">
-                              <div class="numbertext">3 / 4</div>
-                              <img src="images/img3.png" style="width:100%;height:425px;">
-                              <div class="text">Caption Three</div>
-                            </div>
-                            
-                            <div class="mySlides">
-                              <div class="numbertext">4 / 4</div>
-                              <img src="images/img4.png" style="width:100%;height:425px;">
-                              <div class="text">Caption four</div>
-                            </div>
-                          
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Partners</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      <a href="#">Avira</a>
+                    </li>
+                    <li>
+                      <a href="#">East Smart security</a>
+                    </li>
+                    <li>
+                      <a href="#">AVG</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="#">Additional Products</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="#">Submit a request</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <p class="navbar-text">Already have an account?</p>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <b>Login</b>
+                    <span class="caret"></span>
+                  </a>
+                  <ul id="login-dp" class="dropdown-menu">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-12">
+                          Login via
+                          <div class="social-buttons">
+                            <a href="#" class="btn btn-fb">
+                              <i class="fa fa-facebook"></i> Facebook</a>
+                            <a href="#" class="btn btn-tw">
+                              <i class="fa fa-twitter"></i> Twitter</a>
                           </div>
-                          <br>
-                          
-                          <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                          </div>     
-            </div> 
-
-            <div id="right" class="col-xs-4">
-              
-
-            </div>
-        </div>
-
-
-
-        <div id="footer" class="row">
-            <div class="col-xs-12">
-                <footer class="page-footer stylish-color-dark">
-                    
-                        <!--Footer Links-->
-                        <div class="container">
-                    
-                            <!-- Footer links -->
-                            <div class="row text-center text-md-left mt-3 pb-3">
-                    
-                                <!--First column-->
-                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <h6 class="title mb-4 font-bold">Company name</h6>
-                                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                                <!--/.First column-->
-                    
-                                <hr class="w-100 clearfix d-md-none">
-                    
-                                <!--Second column-->
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h6 class="title mb-4 font-bold">Products</h6>
-                                    <p><a href="#!">MDBootstrap</a></p>
-                                    <p><a href="#!">MDWordPress</a></p>
-                                    <p><a href="#!">BrandFlow</a></p>
-                                    <p><a href="#!">Bootstrap Angular</a></p>
-                                </div>
-                                <!--/.Second column-->
-                    
-                                <hr class="w-100 clearfix d-md-none">
-                    
-                                <!--Third column-->
-                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h6 class="title mb-4 font-bold">Useful links</h6>
-                                    <p><a href="#!">Your Account</a></p>
-                                    <p><a href="#!">Become an Affiliate</a></p>
-                                    <p><a href="#!">Shipping Rates</a></p>
-                                    <p><a href="#!">Help</a></p>
-                                </div>
-                                <!--/.Third column-->
-                    
-                                <hr class="w-100 clearfix d-md-none">
-                    
-                                <!--Fourth column-->
-                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <h6 class="title mb-4 font-bold">Contact</h6>
-                                    <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-                                    <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
-                                    <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                                    <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-                                </div>
-                                <!--/.Fourth column-->
-                    
+                          or
+                          <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                            <div class="form-group">
+                              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
                             </div>
-                            <!-- Footer links -->
-                    
-                            <hr>
-                    
-                            <div class="row py-3 d-flex align-items-center">
-                    
-                                <!--Grid column-->
-                                <div class="col-md-8 col-lg-9">
-                    
-                                    <!--Copyright-->
-                                    <p class="text-center text-md-left grey-text">© 2017 Copyright: <a href="https://www.MDBootstrap.com"><strong> MDBootstrap.com</strong></a></p>
-                                    <!--/.Copyright-->
-                    
-                                </div>
-                                <!--Grid column-->
-                    
-                                <!--Grid column-->
-                                <div class="col-md-4 col-lg-3 ml-lg-0">
-                    
-                                    <!--Social buttons-->
-                                    <div class="social-section text-center text-md-left">
-                                        <ul>
-                                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-google-plus"></i></a></li>
-                                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <!--/.Social buttons-->
-                    
-                                </div>
-                                <!--Grid column-->
-                    
+                            <div class="form-group">
+                              <label class="sr-only" for="exampleInputPassword2">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                              <div class="help-block text-right">
+                                <a href="">Forget the password ?</a>
+                              </div>
                             </div>
-                    
+                            <div class="form-group">
+                              <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox"> keep me logged-in
+                              </label>
+                            </div>
+                          </form>
                         </div>
-                    
-                    </footer>
+                        <div class="bottom text-center">
+                          New here ?
+                          <a href="#">
+                            <b>Join Us</b>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-        </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
 
-
+      </div>
     </div>
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-      </script>
+
+
+    <div id="details" class="row">
+      <div id="left" class="col-xs-8">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/img1.png" style="width:100%;height:425px;">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/img2.png" style="width:100%;height:425px;">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/img3.png" style="width:100%;height:425px;">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/img4.png" style="width:100%;height:425px;">
+            <div class="text">Caption four</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <div id="right" class="col-xs-4">
+
+
+      </div>
+    </div>
+
+
+
+    <div id="footer" class="row">
+      <div class="col-xs-12">
+
+        <!--Footer-->
+
+        <!--Footer-->
+        <footer class="page-footer center-on-small-only stylish-color-dark">
+
+          <!--Footer Links-->
+          <div class="container">
+            <div class="row">
+
+              <!--First column-->
+              <div class="col-md-4">
+                <h5 class="title mb-4 mt-3 font-bold">Footer Content</h5>
+                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit.</p>
+              </div>
+              <!--/.First column-->
+              <!--/.First column
+              <hr class="clearfix w-100 d-md-none">-->
+
+              <!--Second column-->
+              <div class="col-md-2 mx-auto">
+                <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+                <ul>
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.Second column-->
+
+              <!--/.First column
+              <hr class="clearfix w-100 d-md-none">-->
+
+              <!--Third column-->
+              <div class="col-md-2 mx-auto">
+                <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+                <ul>
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.Third column-->
+
+              <!--/.First column
+              <hr class="clearfix w-100 d-md-none">-->
+
+              <!--Fourth column-->
+              <div class="col-md-2 mx-auto">
+                <h5 class="title mb-4 mt-3 font-bold ">Links</h5>
+                <ul>
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.Fourth column-->
+            </div>
+          </div>
+          <!--/.Footer Links-->
+
+          <hr>
+
+          <!--Call to action-->
+          <div class="call-to-action">
+            <ul>
+              <li>
+                <h5 class="mb-1">Register for free</h5>
+              </li>
+              <li>
+                <a href="" class="btn btn-danger btn-rounded">Sign up!</a>
+              </li>
+            </ul>
+          </div>
+          <!--/.Call to action-->
+
+          <hr>
+
+          <!--Social buttons-->
+          <div class="social-section text-center">
+            <ul>
+
+              <li>
+                <a class="btn-floating btn-sm btn-fb">
+                  <i class="fa fa-facebook"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="btn-floating btn-sm btn-tw">
+                  <i class="fa fa-twitter"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="btn-floating btn-sm btn-gplus">
+                  <i class="fa fa-google-plus"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="btn-floating btn-sm btn-li">
+                  <i class="fa fa-linkedin"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="btn-floating btn-sm btn-dribbble">
+                  <i class="fa fa-dribbble"> </i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <!--/.Social buttons-->
+
+          <!--Copyright-->
+          <div class="footer-copyright">
+            <div class="container-fluid">
+              © 2017 Copyright:
+              <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+            </div>
+          </div>
+          <!--/.Copyright-->
+
+        </footer>
+        <!--/.Footer-->
+
+        <!--/.Footer-->
+
+      </div>
+    </div>
+
+
+  </div>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  </script>
 </body>
+
 </html>
