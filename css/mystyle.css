@@ -6,21 +6,30 @@
 #details
 {
   border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.452);
+    
     height: 500px;
 
 }
 #left{
-  
+  width: 74.5%;
+  margin-right: 0.5%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.452);
     height: 500px;
    
 }
 #right{
+  width: 25%;
+  padding: 5px;
+  border-radius: 10px;
     height: 500px;
-    background-color: aqua;
+    background-color: rgba(128, 128, 128, 0.452); 
 }
 #footer{
-    background-color: gray;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.452);
     height: 50px;
 
 }
@@ -118,7 +127,7 @@
 }
 body{
   background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
-  padding:50px;
+  padding:15px;
 }
 
 #login-dp{
